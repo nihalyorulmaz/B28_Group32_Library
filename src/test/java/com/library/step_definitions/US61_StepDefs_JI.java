@@ -12,7 +12,7 @@ import org.openqa.selenium.WebElement;
 import java.util.Collections;
 import java.util.List;
 
-public class US61_StepDefs {
+public class US61_StepDefs_JI {
 
     UsersPage_JI usersPage_ji = new UsersPage_JI();
 
