@@ -5,7 +5,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class US68_StepDefs_KG {
+public class US67_StepDefs_KG {
 
     UsersSearchPage_KG usersSearchPage = new UsersSearchPage_KG();
 
