@@ -37,7 +37,7 @@ public class US63_StepDefs_NY {
     }
 
 
-    @Then("show records value should be {string}")
+    @And("show records value should be {string}")
     public void show_records_value_should_be(String count) {
 
         String actualValue = usersPage_ny.recordsDropdown.getAttribute("value");
@@ -57,6 +57,9 @@ public class US63_StepDefs_NY {
         Assert.assertEquals(actualNumberOfRow,expectedNumberOfRow);
 
     }
+
+
+
 
 
 
