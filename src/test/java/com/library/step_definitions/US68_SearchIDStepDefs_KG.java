@@ -7,7 +7,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 
-public class US67_StepDefs_KG {
+public class US68_SearchIDStepDefs_KG {
 
     UsersSearchPage_KG usersSearchPage = new UsersSearchPage_KG();
 

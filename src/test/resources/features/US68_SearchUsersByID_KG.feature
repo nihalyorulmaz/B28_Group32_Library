@@ -2,12 +2,17 @@ Feature: Library search functionality
 
   Agile Story: Librarian should be able to search users by ID.
 
-  @Search
-  Scenario Outline: Search User By ID with Scenario Outline
+  Acceptance Criteria:
+  1. Verify librarians can search users by ID.
 
+  Background: User should login with valid credentials
     Given the user is on the login page
     And user login as a librarian
     And user click on Users module
+
+  @Search
+  Scenario Outline: Search User By ID with Scenario Outline
+
     When user enters "<searchValue>" in the search box
     Then user should sees "<UserId>" is in the userIDHeader
     Then user should sees "<FullName>" is in the fullNameHeader

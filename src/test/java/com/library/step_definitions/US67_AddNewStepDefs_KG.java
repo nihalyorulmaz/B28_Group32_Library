@@ -5,7 +5,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 
-public class US68_StepDefs_KG {
+public class US67_AddNewStepDefs_KG {
 
     AddNewUsersPage_KG addNewUsersPage  = new AddNewUsersPage_KG();
 
