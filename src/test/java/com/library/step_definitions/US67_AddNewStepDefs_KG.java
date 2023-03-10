@@ -11,7 +11,6 @@ public class US67_AddNewStepDefs_KG {
 
     @When("user click on the Add User")
     public void user_click_on_the_add_user() {
-
         addNewUsersPage.addUser.click();
     }
     @Then("dialog field match {string} Name placeholder")
@@ -38,9 +37,6 @@ public class US67_AddNewStepDefs_KG {
         Assert.assertTrue(actualPlaceHolder);
 
     }
-
-
-
 
 
 }
